@@ -1,0 +1,18 @@
+1. What sort of webserver is it that is being run? (What kind of pages are being served,
+does it use any noteworthy configuration etc?)
+2. What accesses (or attempted accesses) were benign and what were malicious?
+3. Are there different kinds of attack?
+4. Can you correlate different attacks, i.e. are certain requests coming from the same
+attacker, the same kind of attacker (but another instance, i.e. worm A on computer X and
+worm A on computer Y)?
+5. Can you differentiate between automated and manual attacks (i.e. a programmed attack
+and an attack that has been scripted)? What about the entity behind the attacks, i.e.
+automated versus human attacker?
+6. Which ten computers (ip-addresses) make the most requests? (Make a frequency plot of
+them, i.e. the number of request from the most common source, then second most etc.
+What frequency distribution does this look like?)
+7. What requests does the most active computer make? How many different kinds?
+8. What are they indicative of?
+9. If you continue with the second most active computer and so on and remove these
+requests, what remain?
+10. Anything security relevant/interesting thing that you found and haven’t been asked?
